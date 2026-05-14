@@ -61,8 +61,8 @@ function playGame() {
 			alert("YOU WIN!")
 		}else if(computerScore > humanScore){
 			alert("YOU LOSE!")
-		}
-		alert("DRAW!")
+		}else if(humanScore === computerScore){
+		alert("DRAW!")}
 	}
 }
 
